@@ -1,0 +1,62 @@
+$primary: #2970db;
+$sub-primary: #007e7e;
+$secondary: #cfd7e5;
+$sub-secondary: #182667;
+$success: #26c882;
+$danger: #ef6060;
+$warning: #db994e;
+$info: #40dec3;
+$text-color: #182667;
+$white: #ffffff;
+$sub-color: #8897b2;
+$border-color: $secondary;
+$body-bg: #F8F8FC;
+$sub-body-bg: #EFF3FB;
+$dark: #000000;
+$input-disable-bg: #e9ecef;
+$body-font: 'Source Sans Pro', sans-serif;
+$heading-font: 'Montserrat', sans-serif;
+
+$border-radius: 8px;
+
+$badge-colors: (
+    primary: $primary,
+    success: $success,
+    danger: $danger,
+    warning: $warning,
+    info: $info,
+);
+
+// Input
+
+$input-btn-padding-y: 12px;
+$input-btn-padding-x: 16px;
+$input-border-radius: $border-radius;
+$input-btn-border-width: 2px;
+$input-border-color: rgba($border-color, 0.5);
+$input-bg: $white;
+
+// Card
+
+$card-cap-bg: transparent;
+$card-border-color: $border-color;
+$card-border-width: 2px;
+$card-spacer-y: 16px;
+$card-spacer-x: 24px;
+$card-cap-padding-y: 16px;
+
+// Modal
+
+$modal-content-border-radius: 16px;
+$modal-header-padding: 24px;
+// $modal-inner-padding: 24px;
+
+
+//SCSS SYNTAX
+
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
