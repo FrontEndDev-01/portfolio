@@ -12,7 +12,7 @@ const Home = (props: Props) => {
     <Body>
       <div className="d-flex align-items-center justify-content-center h-100">
         <div className="d-flex flex-column">
-          <h3 className="h3 m-0 text-center">I'm {logoText}</h3>
+          <h3 className="h3 m-0 text-center text-capitalize">I'm {logoText}</h3>
           <h2 className="h2">
             <Typewriter
               options={{
