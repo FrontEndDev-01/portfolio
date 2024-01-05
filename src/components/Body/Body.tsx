@@ -10,7 +10,7 @@ const Body = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <div className="container">{children}</div>
+      <div className="container vh-100 ">{children}</div>
     </>
   );
 };
