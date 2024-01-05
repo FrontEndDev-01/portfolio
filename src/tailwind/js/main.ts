@@ -22,11 +22,6 @@ module.exports = {
       boxShadow: {
         "shadow-lg": "0px 0px 40px 15px rgba(0, 0, 0, 0.3)",
       },
-      backgroundImage: {
-      },
-      fontFamily: {
-        town: ["Town"],
-      },
     },
     fontWeight: {
       thin: "100",

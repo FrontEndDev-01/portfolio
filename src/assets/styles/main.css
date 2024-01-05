@@ -11905,20 +11905,32 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Marcellus;
+  src: url(../font/Marcellus-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  background: #000000;
+  background: #0c0c0c;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: Marcellus;
   font-size: 18px;
   -ms-touch-action: none;
   touch-action: none;
   position: relative;
   touch-action: none;
+}
+
+.menu-btn {
+  color: #ffffff;
+}
+.menu-btn:hover {
+  color: #0c0c0c;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

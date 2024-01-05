@@ -11,13 +11,14 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Dashboard from "@pages/Dashboard/Dashboard";
+import Home from "@pages/Home/Home";
 
 type Props = {};
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Dashboard />} />
+      <Route path="/" element={<Home />} />
     </>
   )
 );

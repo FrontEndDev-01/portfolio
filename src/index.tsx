@@ -5,6 +5,7 @@ import App from "./pages/App/App";
 
 import store from "./store/store";
 import 'src/assets/styles/main.css'
+import 'src/assets/landing/css/main.css'
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

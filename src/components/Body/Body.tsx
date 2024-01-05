@@ -1,5 +1,7 @@
 import React from "react";
 
+import Header from "@components/Header/Header";
+
 type Props = {
   children: React.ReactNode;
 };
@@ -7,7 +9,8 @@ type Props = {
 const Body = ({ children }: Props) => {
   return (
     <>
-      <div className="container-xl">{children}</div>
+      <Header />
+      <div className="container">{children}</div>
     </>
   );
 };

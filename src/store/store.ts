@@ -1,9 +1,11 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore, findNonSerializableValue } from "@reduxjs/toolkit";
 import toastSlice from "@store/toast/toastSlice";
+import navbarSlice from "./navbar/navbarSlice";
 
 const store = configureStore({
   reducer: {
-    toast: toastSlice
+    toast: toastSlice,
+    navbar: navbarSlice,
   },
 });
 
